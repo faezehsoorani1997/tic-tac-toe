@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("tic tac toe.jpg");
+
+}
+.container{
+
+    width: 450%;
+    margin: auto;
+}
+/*عکس*/
+.h{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#h1{
+
+    margin-top: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    width: 22.3%;
+    font-size:xxx-large;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+/*عکس*/
+.button{
+    text-align: center;
+    font-size: xx-large;
+    background-color: #4A2D5E;
+    color: white;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    border-width: 6px;
+    border-color: blueviolet;
+    cursor: pointer;
+    transform: scale(1);
+}
+/*
+button :hover{
+    color: red;
+    transform: (0.90);
+}*/
+#player1{
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 6%;
+
+}
+#player2{
+    margin-top: 50px;
+    width: 6%;
+}
+#easy{
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 6%;
+}
+#hard{
+    margin-top: 10px;
+    width: 6%;
+}
+#three{
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 6%;
+}
+#four{
+    margin-top: 10px;
+    width: 6%;
+}
+#go{
+    margin-top: 20px;
+    margin-left: 8%;
+    width: 6%;
+}
