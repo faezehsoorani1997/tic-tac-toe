@@ -139,35 +139,6 @@ function game(){
   }
 
 ////////////////////////////
-function Replay(){
-  b1.innerHTML='';
-  b1.style.backgroundColor="#ffffff";
-  b1.disabled=false
-  b2.innerHTML='';
-  b2.style.backgroundColor="#ffffff";
-  b2.disabled=false
-  b3.innerHTML='';
-  b3.style.backgroundColor="#ffffff";
-  b3.disabled=false
-  b4.innerHTML='';
-  b4.style.backgroundColor="#ffffff";
-  b4.disabled=false
-  b5.innerHTML='';
-  b5.style.backgroundColor="#ffffff";
-  b5.disabled=false
-  b6.innerHTML='';
-  b6.style.backgroundColor="#ffffff";
-  b6.disabled=false
-  b7.innerHTML='';
-  b7.style.backgroundColor="#ffffff";
-  b7.disabled=false
-  b8.innerHTML='';
-  b8.style.backgroundColor="#ffffff";
-  b8.disabled=false
-  b9.innerHTML='';
-  b9.style.backgroundColor="#ffffff";
-  b9.disabled=false
-}
 ///////////////////////
 function checkresult(){
         let str;
@@ -177,44 +148,44 @@ function checkresult(){
         str="stop"
         return str
     }
-    else if((document.getElementById("b3").innerHTML==document.getElementById("b5").innerHTML
-        &&  document.getElementById("b3").innerHTML==document.getElementById("b7").innerHTML)
+    else if((document.getElementById("b3").innerHTML==document.getElementById("b5").innerHTML)
+        && (document.getElementById("b3").innerHTML==document.getElementById("b7").innerHTML)
         && ((document.getElementById("b3").innerHTML=="X") || (document.getElementById("b3").innerHTML=="O"))){
         str="stop"
         return str
     }
-    else if((document.getElementById("b1").innerHTML==document.getElementById("b2").innerHTML
-        &&  document.getElementById("b1").innerHTML==document.getElementById("b3").innerHTML)
+    else if((document.getElementById("b1").innerHTML==document.getElementById("b2").innerHTML)
+        &&  (document.getElementById("b1").innerHTML==document.getElementById("b3").innerHTML)
         && ((document.getElementById("b1").innerHTML=="X") || (document.getElementById("b1").innerHTML=="O"))){
         str="stop"
         return str
     }
-    else if((document.getElementById("b4").innerHTML==document.getElementById("b5").innerHTML 
-        &&  document.getElementById("b4").innerHTML==document.getElementById("b6").innerHTML)
+    else if((document.getElementById("b4").innerHTML==document.getElementById("b5").innerHTML )
+        &&  (document.getElementById("b4").innerHTML==document.getElementById("b6").innerHTML)
         && ((document.getElementById("b4").innerHTML=="X") || (document.getElementById("b4").innerHTML=="O"))){
         str="stop"
         return str
     }
-    else if((document.getElementById("b7").innerHTML==document.getElementById("b8").innerHTML 
-        &&  document.getElementById("b7").innerHTML==document.getElementById("b9").innerHTML)
+    else if((document.getElementById("b7").innerHTML==document.getElementById("b8").innerHTML )
+        &&  (document.getElementById("b7").innerHTML==document.getElementById("b9").innerHTML)
         && ((document.getElementById("b7").innerHTML=="X") || (document.getElementById("b7").innerHTML=="O"))){
         str="stop"
         return str
     }
-    else if((document.getElementById("b1").innerHTML==document.getElementById("b4").innerHTML
-        &&  document.getElementById("b1").innerHTML==document.getElementById("b7").innerHTML)
+    else if((document.getElementById("b1").innerHTML==document.getElementById("b4").innerHTML)
+        && ( document.getElementById("b1").innerHTML==document.getElementById("b7").innerHTML)
         && ((document.getElementById("b1").innerHTML=="X") || (document.getElementById("b1").innerHTML=="O"))){
         str="stop"
         return str
     }
-    else if((document.getElementById("b2").innerHTML==document.getElementById("b5").innerHTML 
-        &&  document.getElementById("b2").innerHTML==document.getElementById("b8").innerHTML)
+    else if((document.getElementById("b2").innerHTML==document.getElementById("b5").innerHTML )
+        && ( document.getElementById("b2").innerHTML==document.getElementById("b8").innerHTML)
         && ((document.getElementById("b2").innerHTML=="X") || (document.getElementById("b2").innerHTML=="O"))){
         str="stop"
         return str
     }
-    else if((document.getElementById("b3").innerHTML==document.getElementById("b6").innerHTML 
-        &&  document.getElementById("b3").innerHTML==document.getElementById("b9").innerHTML)
+    else if((document.getElementById("b3").innerHTML==document.getElementById("b6").innerHTML )
+        && ( document.getElementById("b3").innerHTML==document.getElementById("b9").innerHTML)
         && ((document.getElementById("b3").innerHTML=="X") || (document.getElementById("b3").innerHTML=="O"))){
         str="stop"
         return str

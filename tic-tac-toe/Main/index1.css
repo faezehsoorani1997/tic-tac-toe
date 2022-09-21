@@ -50,31 +50,31 @@ button :hover{
 }*/
 #player1{
     margin-top: 10px;
-    margin-left: 5%;
-    width: 6%;
+    margin-left: 1%;
+    width: 10%;
 
 }
 #player2{
     margin-top: 50px;
-    width: 6%;
+    width: 10%;
 }
 #easy{
     margin-top: 10px;
-    margin-left: 5%;
-    width: 6%;
+    margin-left: 1%;
+    width: 10%;
 }
 #hard{
     margin-top: 10px;
-    width: 6%;
+    width: 10%;
 }
 #three{
     margin-top: 10px;
-    margin-left: 5%;
-    width: 6%;
+    margin-left: 1%;
+    width: 10%;
 }
 #four{
     margin-top: 10px;
-    width: 6%;
+    width: 10%;
 }
 #go{
     margin-top: 20px;

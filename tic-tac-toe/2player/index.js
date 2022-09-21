@@ -55,10 +55,9 @@ function game(){
             if(final=="stop"){
                 result=document.getElementById("result");
                 result.innerHTML='WINS X'; 
-                 console.log(result.innerHTML);
-                 
-                 location.reload();
-                 console.log(result.innerHTML);
+                console.log(result.innerHTML);
+                alert("WIN X");
+                location.reload();
                 }
             }
 else if(flag==false){
@@ -74,60 +73,59 @@ else if(flag==false){
         result=document.getElementById("result");
         result.innerHTML='WIN O';
         console.log(result.innerHTML);
-     
+        alert("WIN O");
         location.reload();
-        console.log(result.innerHTML);
     }
 }
 }
 function checkresult(){
-        let str;
-    if((document.getElementById("b1").innerHTML==document.getElementById("b5").innerHTML
-        &&  document.getElementById("b1").innerHTML==document.getElementById("b9").innerHTML)
-        && ((document.getElementById("b1").innerHTML=="X") || (document.getElementById("b1").innerHTML=="O"))){
-        str="stop"
-        return str
-    }
-    else if((document.getElementById("b3").innerHTML==document.getElementById("b5").innerHTML
-        &&  document.getElementById("b3").innerHTML==document.getElementById("b7").innerHTML)
-        && ((document.getElementById("b3").innerHTML=="X") || (document.getElementById("b3").innerHTML=="O"))){
-        str="stop"
-        return str
-    }
-    else if((document.getElementById("b1").innerHTML==document.getElementById("b2").innerHTML
-        &&  document.getElementById("b1").innerHTML==document.getElementById("b3").innerHTML)
-        && ((document.getElementById("b1").innerHTML=="X") || (document.getElementById("b1").innerHTML=="O"))){
-        str="stop"
-        return str
-    }
-    else if((document.getElementById("b4").innerHTML==document.getElementById("b5").innerHTML 
-        &&  document.getElementById("b4").innerHTML==document.getElementById("b6").innerHTML)
-        && ((document.getElementById("b4").innerHTML=="X") || (document.getElementById("b4").innerHTML=="O"))){
-        str="stop"
-        return str
-    }
-    else if((document.getElementById("b7").innerHTML==document.getElementById("b8").innerHTML 
-        &&  document.getElementById("b7").innerHTML==document.getElementById("b9").innerHTML)
-        && ((document.getElementById("b7").innerHTML=="X") || (document.getElementById("b7").innerHTML=="O"))){
-        str="stop"
-        return str
-    }
-    else if((document.getElementById("b1").innerHTML==document.getElementById("b4").innerHTML
-        &&  document.getElementById("b1").innerHTML==document.getElementById("b7").innerHTML)
-        && ((document.getElementById("b1").innerHTML=="X") || (document.getElementById("b1").innerHTML=="O"))){
-        str="stop"
-        return str
-    }
-    else if((document.getElementById("b2").innerHTML==document.getElementById("b5").innerHTML 
-        &&  document.getElementById("b2").innerHTML==document.getElementById("b8").innerHTML)
-        && ((document.getElementById("b2").innerHTML=="X") || (document.getElementById("b2").innerHTML=="O"))){
-        str="stop"
-        return str
-    }
-    else if((document.getElementById("b3").innerHTML==document.getElementById("b6").innerHTML 
-        &&  document.getElementById("b3").innerHTML==document.getElementById("b9").innerHTML)
-        && ((document.getElementById("b3").innerHTML=="X") || (document.getElementById("b3").innerHTML=="O"))){
-        str="stop"
-        return str
-    }
+    let str;
+if((document.getElementById("b1").innerHTML==document.getElementById("b5").innerHTML)
+    && ( document.getElementById("b1").innerHTML==document.getElementById("b9").innerHTML)
+    && (document.getElementById("b1").innerHTML=="X") || (document.getElementById("b1").innerHTML=="O")){
+    str="stop"
+    return str
+}
+else if((document.getElementById("b3").innerHTML==document.getElementById("b5").innerHTML)
+    && (document.getElementById("b3").innerHTML==document.getElementById("b7").innerHTML)
+    && ((document.getElementById("b3").innerHTML=="X") || (document.getElementById("b3").innerHTML=="O"))){
+    str="stop"
+    return str
+}
+else if((document.getElementById("b1").innerHTML==document.getElementById("b2").innerHTML)
+    &&  (document.getElementById("b1").innerHTML==document.getElementById("b3").innerHTML)
+    && ((document.getElementById("b1").innerHTML=="X") || (document.getElementById("b1").innerHTML=="O"))){
+    str="stop"
+    return str
+}
+else if((document.getElementById("b4").innerHTML==document.getElementById("b5").innerHTML )
+    &&  (document.getElementById("b4").innerHTML==document.getElementById("b6").innerHTML)
+    && ((document.getElementById("b4").innerHTML=="X") || (document.getElementById("b4").innerHTML=="O"))){
+    str="stop"
+    return str
+}
+else if((document.getElementById("b7").innerHTML==document.getElementById("b8").innerHTML )
+    &&  (document.getElementById("b7").innerHTML==document.getElementById("b9").innerHTML)
+    && ((document.getElementById("b7").innerHTML=="X") || (document.getElementById("b7").innerHTML=="O"))){
+    str="stop"
+    return str
+}
+else if((document.getElementById("b1").innerHTML==document.getElementById("b4").innerHTML)
+    && ( document.getElementById("b1").innerHTML==document.getElementById("b7").innerHTML)
+    && ((document.getElementById("b1").innerHTML=="X") || (document.getElementById("b1").innerHTML=="O"))){
+    str="stop"
+    return str
+}
+else if((document.getElementById("b2").innerHTML==document.getElementById("b5").innerHTML )
+    && ( document.getElementById("b2").innerHTML==document.getElementById("b8").innerHTML)
+    && ((document.getElementById("b2").innerHTML=="X") || (document.getElementById("b2").innerHTML=="O"))){
+    str="stop"
+    return str
+}
+else if((document.getElementById("b3").innerHTML==document.getElementById("b6").innerHTML )
+    && ( document.getElementById("b3").innerHTML==document.getElementById("b9").innerHTML)
+    && ((document.getElementById("b3").innerHTML=="X") || (document.getElementById("b3").innerHTML=="O"))){
+    str="stop"
+    return str
+}
 }
